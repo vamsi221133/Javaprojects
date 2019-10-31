@@ -1,0 +1,29 @@
+package Automation;
+
+import java.util.Scanner;
+
+public class Patternexercise {
+	public static void main(String[] args) {
+		Scanner x = new Scanner (System.in);
+		char ch = x.next().charAt(0);
+		{
+			int i,j;
+			for(i=0;i<3;i++)
+			{
+				for(j=0;j<=i;j++)
+				{
+					System.out.print(ch);
+				}
+				System.out.println();
+			}
+		}			
+				
+	}
+
+}
+Result:
+Entered manually : *
+Output:
+*
+**
+***
