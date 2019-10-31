@@ -1,0 +1,15 @@
+package java_weeklyProject;
+
+public class CharArray_Prac {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char[] ch= {'m','a','v','e','r','i','c'};
+		String str = new String(ch);
+	    System.out.println(str);
+		StringBuilder sb=new StringBuilder(str);
+		System.out.println(sb.reverse());
+
+	}
+
+}
