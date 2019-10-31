@@ -1,0 +1,30 @@
+package DemoProject;
+
+import java.util.Scanner;
+
+public class Pattern {
+	static int n = 10;
+
+	public static void starpattern(int n) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the special Character");
+		String a = sc.nextLine();
+		if (a.equals("*") || a.equals("#") || a.equals("!")) {
+			int i, j;
+			for (i = 0; i < n; i++) {
+				System.out.println("");
+
+				for (j = 0; j <= i; j++) {
+					System.out.print(a);
+				}
+			}
+		} else {
+			System.out.println("Only specific special characters allowed");
+			starpattern(5);
+		}
+	}
+
+	public static void main(String[] args) {
+		starpattern(5);
+	}
+}
