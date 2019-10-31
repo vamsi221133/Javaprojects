@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class FirstWeek {
 	private static void star(String c) {
-		for(int i=0;i<=6;i++) {
-			System.out.println("");
-			for(int j=0;j<=i;j++)
-			{
-			System.out.print(c+" ");
-			}
+	for(int i=0;i<=6;i++) {
+		System.out.println("");
+		for(int j=0;j<=i;j++)
+		{
+		System.out.print(c+" ");
+		}
 	}
 }
 	public static void main(String[] args) {
