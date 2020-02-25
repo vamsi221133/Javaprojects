@@ -1,0 +1,12 @@
+	static void Randomm(int startingNum,int maxNum){
+		 try{int random_num = startingNum;
+		    Random t = new Random();
+		    random_num=	(t.nextInt(maxNum));
+		    String ProgramID = String.valueOf(random_num);
+		    
+		    System.out.println(ProgramID);
+		 }
+		 catch (Exception e) {
+		System.out.println("starting and ending number must be +ve");// TODO: handle exception
+		}
+	}
