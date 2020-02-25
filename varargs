@@ -1,0 +1,15 @@
+package sample;
+//this is for returning multiple values from the method dinamicaly
+public class Varargs {
+	static void sample(int ...x){
+		System.out.println("number of arguments are :"+x.length);
+		for(int i =0;i<x.length;i++){
+			System.out.println(x[i]+ " ");
+		}
+		System.out.println();	
+	}
+	public static void main(String[] args) {
+		sample(2,4,5,7,6,3,9,8,7);
+	}
+
+}
